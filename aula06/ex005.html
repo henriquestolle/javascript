@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(84, 160, 223);
+            color: white;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+  <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado.</p>
+    <P>Aprendo a usar <strong>DOM</strong> em javascript.</strong></P>
+    <div id="msg">Clique em mim!</div> <!-- id sempre dentro da <div id=""> -->
+    <script>
+       /*
+       primeiro cria uma variavel
+       window.document.write(window.document.URL)
+        get.ElementBy...
+        window.alert(p1.innerText)
+        p1.style.color = "blue"
+         corpo.style.background = "white blue"
+         d.innerText = "Estou aguardando"
+         queryselector é para CSS
+       */
+       var d = window.document.querySelector("div#msg") // quando for ID usa #.
+       var p = window.document.getElementsByName("p")[0]
+       d.style.background = "blue"
+       d.style.color = "pink"
+    </script>
+</body>
+</html>

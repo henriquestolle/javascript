@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../cursohtml5css3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "curso js"
+	}
+}
